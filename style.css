@@ -1,0 +1,291 @@
+*{
+    margin:0;
+    padding:0;
+} 
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/* This is top head section start */
+.main_top_section{
+    overflow: hidden;
+}
+/* This is menu bar section start */
+.main_menu_bar{
+    overflow: hidden;
+    background: white;
+    margin-top: 20px;
+    position: sticky;
+    border-bottom: 2px solid whitesmoke;
+    top: 0px;
+}
+#primary_menu{
+    list-style: none;
+    float: right;
+    padding-right: 100px;
+}
+#primary_menu li{
+    float:left;
+} 
+#primary_menu li a{
+    padding:10px 15px;
+    text-decoration:none;
+    font-weight: bold;
+    color: #039c8e;
+    display:block;
+} 
+/* This is menu bar section end*/
+.parents{
+    height: 460px;
+    width: 40%;
+    float:left;
+    margin-left: 6%;
+    padding-left: 1%;
+}
+.parents_text_contents1{
+    padding: 90px;
+}
+.contents_header{
+    font-size: 50px;
+    font-family:'Oswald', sans-serif;
+}
+.parents_text_contents1 h1{
+    font-size: 55px;
+    color: #ff0101;
+    font-family:'Oswald', sans-serif;
+}
+.parents_text_contents1 p{
+    padding: 30px 0px;
+    color: #a2a2a2;
+    text-align: justify;
+}
+.text_content_button {
+    background:linear-gradient(rgb(173, 243, 252),blue,rgb(104, 104, 104));
+    color:white;
+    display: block;
+    padding: 16px 20px;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    width: 110px;
+    border-radius: 10px;
+}
+#parents_image1{
+    width: 100%;
+    height: 100%;
+}
+.child{
+    width: 460px;
+    padding-top: 50px;
+}
+.download_cv{
+    background: linear-gradient(rgb(255 253 251),#63503c,rgb(255 4 4));
+    color:white;
+    display: block;
+    padding: 16px 20px;
+    font-size: 14px;
+    text-decoration: none;
+    width: 130px;
+    border-radius: 10px;
+}
+.about{
+    font-size: 40px;
+    font-family:'Oswald', sans-serif;
+}
+/* This is top head section end */
+
+
+
+/* This is project section start */
+.project{
+    margin-top: 60px;
+    background-color: rgb(196 208 204 / 14%);
+    padding: 50px 0px;
+}
+.project_content_wrapper{
+    overflow: hidden;
+    padding: 0px 60px 50px 60px;
+}
+.project_content_wrapper h1{
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 50px;
+    font-family:'Oswald', sans-serif;
+}
+.project_content_wrapper h1 span{
+    color:red;
+}
+.project_block_content{
+    width: 350px;
+    margin: 0px 14px;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: white;
+    float:left;
+    box-shadow: 1px 2px 6px 2px #d4d4d4;
+}
+.project_block_content h3{
+    font-size: 25px;
+    padding: 16px 0px;
+}
+.project_block_content p{
+    text-align: justify;
+    color: #a0a0a0;
+    padding-bottom: 20px;
+}
+#block_image{
+    width: 100%;
+    height: 220px;
+}
+#block_image img{
+    height: 100%;
+    width: 100%;
+}
+/* This is project section end */
+/* This is Team section start */
+.Teem_main_wraper {
+    text-align: center;
+    padding: 50px 150px;
+    overflow: hidden;
+}
+.Teem_member_block{
+    width: 200px;
+    float: left;
+    padding: 9px;
+    margin: 0px 50px;
+}
+.Teem_main_wraper h1{
+   text-align: center;
+   padding-bottom: 40px;
+   font-size: 27px;
+   color: #039c8e;
+}
+.Teem_member_block h2{
+    padding: 14px 0px;
+    color: #039c8e;
+}
+.Teem_member_block h4{
+    color: #000000;
+    padding-bottom: 10px;
+}
+.Teem_member_block p{
+    font-size: 15px;
+    padding-bottom: 20px;
+    color: #7d7d7d;
+}
+
+.Teem_member_block button{
+    padding: 5px;
+    background: #039c8e;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+.Teem_membber_image{
+    height: 200px;
+    box-shadow: 0px 1px 6px 1px #080000;
+    width: 200px;
+    margin: auto;
+    border-radius: 50%;
+}
+.Teem_membber_image img{
+    height: 100%;
+    width: 100%;
+    border-radius:50%
+
+}
+.control{
+    height: 270px;
+    width: 270px;
+}
+.middle{
+    width: 290px;
+}
+p#text_control {
+    padding: 0px 40px 20px 40px;
+}
+.inside{
+    margin-top: 90px;
+}
+.Work_enquary{
+    width: 800px;
+    margin:auto;
+    height: 200px;
+    margin-top: 120px;
+    background-image:url(Images/Group_33094_1.png);
+}
+.Work_enquary_wrapper {
+    padding: 64px 60px;
+    overflow: hidden;
+}
+.content1{
+    width: 300px;
+    float:left;
+}
+.content1 h1{
+    font-size: 46px;
+    color: white;
+    font-family: 'Oswald';
+}
+.content2{
+    width: 300px;
+    padding: 9px 0px;
+    float:right;
+    text-align: right;
+}
+.content2 button{
+    padding: 15px 30px;
+    background-color: #ff2525;
+    outline: none;
+    font-size: 15px;
+    border: none;
+    color: white;
+    box-shadow: 0px 0px 6px 3px white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+/* This is team section end */
+/* This is footer section Start */
+footer {
+    padding: 39px 0px;
+}
+.footer_content_wrapper{
+    width: 350px;
+    margin:auto;
+    padding: 10px;
+    overflow: hidden;
+}
+.footer_content_wrapper h1{
+   text-align: center;
+    
+}
+.footer_content_wrapper h3{
+    text-align: center;
+    font-family: 'Oswald';
+    color: #ababab;
+    padding-bottom: 20px;
+}
+.footer_content_wrapper a{
+    text-decoration: none;
+    color: #8c8989;
+    overflow: hidden;
+}
+.Social_icon_wrapper{
+    width:180px;
+    overflow: hidden;
+    margin:auto;
+    padding-top: 15px;
+}
+.Social_icon{
+    height: 45px;
+    width: 45px;
+    margin: 0px 7px;
+    float:left;
+}
+.Social_icon img{
+    height: 100%;
+    width: 100%;
+}
+/* This is footer section Start */
